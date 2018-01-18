@@ -49,5 +49,6 @@
             "isWholeLine": false
         }
     ],
-    "typescript.autoImportSuggestions.enabled": false
+    "typescript.autoImportSuggestions.enabled": false,
+    "workbench.iconTheme": "material-icon-theme"
 }
