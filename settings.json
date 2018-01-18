@@ -1,0 +1,53 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "files.autoSave": "onWindowChange",
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php",
+        "*.php": "php"
+    },
+    "workbench.colorTheme": "Monokai Dimmed"
+    "search.exclude": {
+        "**/.git": true,
+        "**/.idea": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/tmp": true,
+        "**/vendor": true
+    },
+    "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    
+    "prettier.arrowParens": "avoid",
+    "prettier.disableLanguages": [
+        "typescript"
+    ],
+    "prettier.printWidth": false,
+    "prettier.proseWrap": "preserve",
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "prettier.useTabs": false,
+
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "NOTE:",
+            "color": "#fff",
+            "backgroundColor": "#009688",
+            "overviewRulerColor": "rgb(0, 151, 136, 0.8)",
+            "isWholeLine": false
+        },
+        {
+            "text": "HACK:",
+            "color": "#fff",
+            "backgroundColor": "#FF3D00",
+            "overviewRulerColor": "rgb(255, 59, 1, 0.8)",
+            "isWholeLine": false
+        }
+    ],
+    "typescript.autoImportSuggestions.enabled": false
+}
