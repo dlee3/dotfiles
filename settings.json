@@ -4,13 +4,14 @@
     "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "all",
+    "emmet.triggerExpansionOnTab": true,
     "files.autoSave": "onWindowChange",
     "files.associations": {
         ".php_cs": "php",
         ".php_cs.dist": "php",
         "*.php": "php"
     },
-    "workbench.colorTheme": "Monokai Dimmed"
+    "workbench.colorTheme": "Monokai Dimmed",
     "search.exclude": {
         "**/.git": true,
         "**/.idea": true,
@@ -23,7 +24,8 @@
     
     "prettier.arrowParens": "avoid",
     "prettier.disableLanguages": [
-        "typescript"
+        "typescript",
+        "html"
     ],
     "prettier.printWidth": false,
     "prettier.proseWrap": "preserve",
@@ -50,5 +52,20 @@
         }
     ],
     "typescript.autoImportSuggestions.enabled": false,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml"
+    ],
+    "gitlens.keymap": "alternate"
 }
