@@ -20,6 +20,7 @@
         "**/tmp": true,
         "**/vendor": true
     },
+    "search.location": "panel",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
     
     "prettier.arrowParens": "avoid",
