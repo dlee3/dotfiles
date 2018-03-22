@@ -1,7 +1,6 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
-    "editor.formatOnPaste": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "all",
     "emmet.triggerExpansionOnTab": true,
@@ -11,7 +10,15 @@
         ".php_cs.dist": "php",
         "*.php": "php"
     },
-    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.formatOnSave": true,
+    "[jsonc]": {
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapLineLength": 0,
     "search.exclude": {
         "**/.git": true,
         "**/.idea": true,
@@ -22,6 +29,9 @@
     },
     "search.location": "panel",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
+    "window.restoreWindows": "all",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
     
     "prettier.arrowParens": "avoid",
     "prettier.disableLanguages": [
@@ -53,7 +63,6 @@
         }
     ],
     "typescript.autoImportSuggestions.enabled": false,
-    "workbench.iconTheme": "material-icon-theme",
     "auto-close-tag.activationOnLanguage": [
         "xml",
         "php",
