@@ -86,5 +86,6 @@
         "suppressShowKeyBindingsNotice": true
     },
     "telemetry.enableTelemetry": false,
-    "code-runner.enableAppInsights": false
+    "code-runner.enableAppInsights": false,
+    "http.proxyStrictSSL": false,
 }
