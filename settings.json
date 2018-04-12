@@ -34,11 +34,8 @@
     "workbench.iconTheme": "material-icon-theme",
     
     "prettier.arrowParens": "avoid",
-    "prettier.disableLanguages": [
-        "typescript",
-        "html"
-    ],
-    "prettier.printWidth": false,
+    "prettier.disableLanguages": [],
+    "prettier.printWidth": 100,
     "prettier.proseWrap": "preserve",
     "prettier.semi": true,
     "prettier.singleQuote": true,
@@ -77,5 +74,17 @@
         "lang-cfml",
         "cfml"
     ],
-    "gitlens.keymap": "alternate"
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "telemetry.enableTelemetry": false,
+    "code-runner.enableAppInsights": false
 }
