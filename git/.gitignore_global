@@ -4,7 +4,7 @@
 /vendor
 environment.inc
 .idea/*
-.vscode/launch.json
+.vscode/*
 /node_modules/*
 Version20170303193355.php
 Version20170303193502.php
@@ -12,5 +12,6 @@ config.codekit3
 yarn-error.log
 app/.idea
 app/src/assets/config/env.json
+launch.json
 
 proxy.config.json
