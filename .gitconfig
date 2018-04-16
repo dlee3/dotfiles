@@ -1,0 +1,24 @@
+[core]
+	excludesfile = /Users/David/.gitignore_global
+[user]
+	name = David Lee
+	email = dlee@franklinamerican.com
+[commit]
+	template = /Users/David/.stCommitMsg
+[color]
+	ui = true
+[credential]
+	helper = osxkeychain
+
+[alias]
+	br = branch
+	br-delete-all = branch-delete-all
+	ci = commit
+	co = checkout
+	st = status
+	# Delete all local branches but master and the current one, only if they are fully merged with master.
+	branch-delete-all = "!f(){\
+		git branch | grep -v "master" | grep -v ^* | xargs git branch -d;\
+	}; f"
+[pager]
+	branch = false
