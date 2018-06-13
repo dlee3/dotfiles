@@ -88,4 +88,7 @@
     "telemetry.enableTelemetry": false,
     "code-runner.enableAppInsights": false,
     "http.proxyStrictSSL": false,
+    "window.zoomLevel": 0,
+    "gitlens.historyExplorer.enabled": true,
+    "editor.minimap.enabled": false,
 }
