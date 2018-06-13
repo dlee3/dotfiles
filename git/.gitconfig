@@ -1,10 +1,13 @@
 [core]
 	excludesfile = ~/.gitignore_global
+	editor = code -w
 [user]
 	name = David Lee
 	email = {email}
 [color]
 	ui = true
+[commit]
+    template = ~/.gitmessage
 [credential]
 	helper = osxkeychain
 
