@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "ng new {cursor} --skip-git --skip-install --routing --style scss",
+    "uid" : "DC8953E2-76AF-4AAD-8487-FD2B85428EA0",
+    "name" : "ng new",
+    "keyword" : "ngn"
+  }
+}

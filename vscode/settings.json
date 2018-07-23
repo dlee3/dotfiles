@@ -91,4 +91,5 @@
     "window.zoomLevel": 0,
     "gitlens.historyExplorer.enabled": true,
     "editor.minimap.enabled": false,
+    "extensions.autoUpdate": false,
 }

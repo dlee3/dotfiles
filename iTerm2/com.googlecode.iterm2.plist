@@ -361,7 +361,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Sites/dotfiles/terminal</string>
+	<string>~/Sites/dotfiles/iTerm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -400,9 +400,9 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>3108 788 796 473 1680 240 3360 1867 </string>
+	<string>-1404 1288 796 473 -2030 1050 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-841 1066 710 667 -2051 1050 1920 1177 </string>
+	<string>3441 240 710 907 1680 240 3360 1867 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>191 124 570 427 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1815,6 +1815,10 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>83B31B91-B1B1-4503-B741-2C57083664EF</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1853,7 +1857,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/dlee/Sites/dotfiles/terminal</string>
+	<string>/Users/dlee/Sites/dotfiles/iTerm2</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1863,7 +1867,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-11T14:26:46Z</date>
+	<date>2018-06-21T13:32:08Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>TabStyle</key>
