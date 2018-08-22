@@ -17,6 +17,8 @@
 	ci = commit
 	co = checkout
 	st = status
+	pul = pull
+	pus = push
 	# Delete all local branches but master and the current one, only if they are fully merged with master.
 	branch-delete-all = "!f(){\
 		git branch | grep -v "master" | grep -v ^* | xargs git branch -d;\
