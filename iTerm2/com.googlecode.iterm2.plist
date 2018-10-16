@@ -398,11 +398,13 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 476 620 392 0 0 1680 1027 </string>
+	<string>-1401 1638 620 392 -2051 1050 1920 1177 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>1949 366 606 469 1680 240 3360 1867 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>-1404 1288 796 473 -2030 1050 1920 1177 </string>
+	<string>-1404 1360 918 401 -2030 1050 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>3441 240 710 907 1680 240 3360 1867 </string>
+	<string>87 1400 710 667 -142 1050 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>191 124 570 427 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1858,6 +1860,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/dlee/Sites/dotfiles/iTerm2</string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1867,8 +1871,10 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-21T13:32:08Z</date>
+	<date>2018-08-28T21:23:04Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>TabStyle</key>
 	<integer>0</integer>
@@ -1877,7 +1883,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.6</string>
+	<string>3.1.7</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
