@@ -128,6 +128,10 @@
             "value": "#639"
         },
         {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
             "name": "Java Blue-Gray",
             "value": "#557c9b"
         },
@@ -155,5 +159,11 @@
             "name": "Vue Green",
             "value": "#42b883"
         }
-    ]
+    ],
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.vetFlags": [
+        "-all",
+        "-shadow"
+    ],
 }
