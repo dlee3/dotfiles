@@ -33,7 +33,7 @@
     "window.restoreWindows": "all",
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.iconTheme": "material-icon-theme",
-    
+
     "prettier.arrowParens": "avoid",
     "prettier.disableLanguages": ["html"],
     "prettier.printWidth": 100,
@@ -60,7 +60,6 @@
             "isWholeLine": false
         }
     ],
-    "typescript.autoImportSuggestions.enabled": false,
     "auto-close-tag.activationOnLanguage": [
         "xml",
         "php",
@@ -166,4 +165,5 @@
         "-all",
         "-shadow"
     ],
+    "java.configuration.checkProjectSettingsExclusions": false,
 }
