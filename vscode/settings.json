@@ -166,4 +166,5 @@
         "-shadow"
     ],
     "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.editor.showTabs": true
 }
