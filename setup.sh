@@ -49,3 +49,7 @@ echo 'Installing nvm'
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 echo 'Installing node.js'
 nvm install 10
+
+# Linking angular/yarn
+echo 'Linking angular-cli.json'
+ln -nfs "$DIR/angular-cli.json" ~/.angular-cli.json

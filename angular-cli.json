@@ -1,0 +1,6 @@
+{
+  "packageManager": "yarn",
+  "warnings": {
+    "versionMismatch": false
+  }
+}
