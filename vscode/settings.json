@@ -29,6 +29,7 @@
     },
     "search.location": "panel",
     "terminal.external.osxExec": "iTerm2.app",
+    "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
     "window.restoreWindows": "all",
     "workbench.colorTheme": "Monokai Dimmed",
