@@ -1,0 +1,57 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+end",
+        "command": "cursorWordPartRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+end",
+        "command": "cursorWordPartRightSelect",
+        "when": "textInputFocus"
+    },
+    { 
+        "key": "alt+home",
+        "command": "cursorWordPartStartLeft",
+        "when": "textInputFocus"
+    },
+    {   
+        "key": "shift+alt+home",
+        "command": "cursorWordPartStartLeftSelect",
+        "when": "textInputFocus"
+    },
+    {   
+        "key": "alt+delete",
+        "command": "deleteWordPartLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "alt+cmd+n",
+        "command": "-extension.advancedNewFile"
+    },
+    {
+        "key": "alt+cmd+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+ctrl+a",
+        "command": "workbench.action.terminal.newWithCwd",
+        "args": {
+            "cwd": "${workspaceFolder}/app"
+        }
+    }
+]
