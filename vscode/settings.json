@@ -34,14 +34,7 @@
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.iconTheme": "material-icon-theme",
 
-    "prettier.arrowParens": "avoid",
     "prettier.disableLanguages": ["html"],
-    "prettier.printWidth": 100,
-    "prettier.proseWrap": "preserve",
-    "prettier.semi": true,
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5",
-    "prettier.useTabs": false,
 
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
@@ -166,5 +159,8 @@
         "-shadow"
     ],
     "java.configuration.checkProjectSettingsExclusions": false,
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
+    "editor.formatOnSaveTimeout": 5000,
+    "angularConsole.useNVM": false,
+    "angularConsole.enableTelemetry": false
 }
