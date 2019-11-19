@@ -93,8 +93,11 @@
     "java.configuration.updateBuildConfiguration": "disabled",
     "cSpell.userWords": [
         "famc",
+        "gnma",
         "injectable",
-        "ngrx"
+        "lqdn",
+        "ngrx",
+        "uploader"
     ],
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",

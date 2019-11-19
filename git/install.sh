@@ -6,5 +6,5 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 ln -nfs "$DIR/gitignore_global" ~/.gitignore_global
 
-ln -nfs "$DIR/.gitconfig" ~/.gitconfig
+cp "$DIR/.gitconfig" ~/.gitconfig
 ln -nfs "$DIR/.gitmessage" ~/.gitmessage
