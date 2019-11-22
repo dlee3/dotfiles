@@ -1,24 +1,32 @@
 {
+    "breadcrumbs.enabled": true,
+    "cSpell.userWords": [
+        "famc",
+        "gnma",
+        "injectable",
+        "lqdn",
+        "ngrx",
+        "uploader"
+    ],
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 5000,
+    "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
     "emmet.triggerExpansionOnTab": true,
+    "extensions.autoUpdate": false,
     "files.autoSave": "onWindowChange",
     "files.associations": {
         ".php_cs": "php",
         ".php_cs.dist": "php",
         "*.php": "php"
     },
-    "editor.formatOnSave": true,
-    "[jsonc]": {
-        "editor.formatOnSave": false
-    },
-    "[json]": {
-        "editor.formatOnSave": false
-    },
     "html.format.wrapAttributes": "force-aligned",
     "html.format.wrapLineLength": 0,
+    "http.proxyStrictSSL": false,
     "search.exclude": {
         "**/.git": true,
         "**/.idea": true,
@@ -28,32 +36,25 @@
         "**/vendor": true
     },
     "search.location": "panel",
+    "telemetry.enableTelemetry": false,
     "terminal.external.osxExec": "iTerm2.app",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
     "window.restoreWindows": "all",
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.showTabs": true,
 
-    "prettier.disableLanguages": ["html"],
+    "[jsonc]": {
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.formatOnSave": false
+    },
 
-    "todohighlight.isEnable": true,
-    "todohighlight.keywords": [
-        {
-            "text": "NOTE:",
-            "color": "#fff",
-            "backgroundColor": "#009688",
-            "overviewRulerColor": "rgb(0, 151, 136, 0.8)",
-            "isWholeLine": false
-        },
-        {
-            "text": "HACK:",
-            "color": "#fff",
-            "backgroundColor": "#FF3D00",
-            "overviewRulerColor": "rgb(255, 59, 1, 0.8)",
-            "isWholeLine": false
-        }
-    ],
+    "angularConsole.useNVM": false,
+    "angularConsole.enableTelemetry": false,
     "auto-close-tag.activationOnLanguage": [
         "xml",
         "php",
@@ -68,7 +69,7 @@
         "lang-cfml",
         "cfml"
     ],
-    "gitlens.keymap": "chorded",
+    "code-runner.enableAppInsights": false,
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -79,29 +80,18 @@
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
     },
-    "telemetry.enableTelemetry": false,
-    "code-runner.enableAppInsights": false,
-    "http.proxyStrictSSL": false,
-    "window.zoomLevel": 0,
-    "gitlens.historyExplorer.enabled": true,
-    "editor.minimap.enabled": false,
-    "extensions.autoUpdate": false,
-    "typescript.updateImportsOnFileMove.enabled": "never",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.keymap": "chorded",
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
-    "gitlens.hovers.currentLine.over": "line",
-    "java.configuration.updateBuildConfiguration": "disabled",
-    "cSpell.userWords": [
-        "famc",
-        "gnma",
-        "injectable",
-        "lqdn",
-        "ngrx",
-        "uploader"
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.vetFlags": [
+        "-all",
+        "-shadow"
     ],
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "breadcrumbs.enabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.configuration.updateBuildConfiguration": "disabled",
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -156,15 +146,23 @@
             "value": "#42b883"
         }
     ],
-    "go.lintOnSave": "package",
-    "go.vetOnSave": "package",
-    "go.vetFlags": [
-        "-all",
-        "-shadow"
+    "prettier.disableLanguages": ["html"],
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "NOTE:",
+            "color": "#fff",
+            "backgroundColor": "#009688",
+            "overviewRulerColor": "rgb(0, 151, 136, 0.8)",
+            "isWholeLine": false
+        },
+        {
+            "text": "HACK:",
+            "color": "#fff",
+            "backgroundColor": "#FF3D00",
+            "overviewRulerColor": "rgb(255, 59, 1, 0.8)",
+            "isWholeLine": false
+        }
     ],
-    "java.configuration.checkProjectSettingsExclusions": false,
-    "workbench.editor.showTabs": true,
-    "editor.formatOnSaveTimeout": 5000,
-    "angularConsole.useNVM": false,
-    "angularConsole.enableTelemetry": false
+    "typescript.updateImportsOnFileMove.enabled": "never"
 }
