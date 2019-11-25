@@ -50,7 +50,8 @@
         "editor.formatOnSave": false
     },
     "[json]": {
-        "editor.formatOnSave": false
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
 
     "angularConsole.useNVM": false,
@@ -147,6 +148,7 @@
         }
     ],
     "prettier.disableLanguages": ["html"],
+    "projects.configPath": "~/Library/Application Support/Code/User/projects.json",
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
         {

@@ -6,8 +6,6 @@ environment.inc
 .idea/*
 .vscode/*
 /node_modules/*
-Version20170303193355.php
-Version20170303193502.php
 config.codekit3
 yarn-error.log
 app/.idea
