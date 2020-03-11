@@ -53,5 +53,14 @@
         "args": {
             "cwd": "${workspaceFolder}/app"
         }
+    },
+    {
+        "key": "ctrl+cmd+\\",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+cmd+\\",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
     }
 ]

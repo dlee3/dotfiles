@@ -1,17 +1,73 @@
 {
     "breadcrumbs.enabled": true,
     "cSpell.userWords": [
+        "account",
+        "amortization",
+        "amount",
+        "an",
+        "asset",
+        "balance",
+        "boolean",
+        "borrower",
+        "combined",
+        "date",
+        "employment",
+        "enum",
+        "executive",
         "famc",
+        "ficos",
+        "figure",
+        "funded",
         "gnma",
+        "in",
+        "income",
         "injectable",
+        "interest",
+        "investor",
+        "is",
+        "last",
+        "loan",
         "lqdn",
+        "ltv",
+        "mortgage",
+        "name",
         "ngrx",
-        "uploader"
+        "note",
+        "number",
+        "occupancy",
+        "occupied",
+        "office",
+        "out",
+        "owner",
+        "ownership",
+        "paid",
+        "pricinple",
+        "principle",
+        "program",
+        "property",
+        "purpose",
+        "qualified",
+        "rate",
+        "relief",
+        "rep",
+        "rowers",
+        "string",
+        "this",
+        "todo",
+        "type",
+        "underwriter",
+        "underwriting",
+        "unpaid",
+        "uploader",
+        "use",
+        "value",
+        "warran",
+        "warrant",
+        "what"
     ],
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
     "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 5000,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "all",
@@ -31,21 +87,24 @@
         "**/.git": true,
         "**/.idea": true,
         "**/node_modules": true,
+        "**/dist": true,
         "**/bower_components": true,
         "**/tmp": true,
         "**/vendor": true
     },
-    "search.location": "panel",
     "telemetry.enableTelemetry": false,
     "terminal.external.osxExec": "iTerm2.app",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
     "window.restoreWindows": "all",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai Mine",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.showTabs": true,
 
+    "[xml]": {
+        "editor.formatOnSave": false
+    },
     "[jsonc]": {
         "editor.formatOnSave": false
     },
@@ -53,9 +112,6 @@
         "editor.formatOnSave": false,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-
-    "angularConsole.useNVM": false,
-    "angularConsole.enableTelemetry": false,
     "auto-close-tag.activationOnLanguage": [
         "xml",
         "php",
@@ -166,5 +222,9 @@
             "isWholeLine": false
         }
     ],
-    "typescript.updateImportsOnFileMove.enabled": "never"
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }

@@ -1,0 +1,23 @@
+{
+  "name": "theme-monokai-mine",
+  "displayName": "monokai-mine Theme",
+  "description": "monokai-mine Theme ported from the dimmed-monokai",
+  "version": "0.0.2",
+  "publisher": "dlee3",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Mine",
+        "path": "./themes/monokai-mine-color-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  }
+}
