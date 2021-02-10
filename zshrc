@@ -98,3 +98,4 @@ export NVM_DIR="$HOME/.nvm"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+export PATH=/Users/dlee/Library/Python/3.7/bin:$PATH

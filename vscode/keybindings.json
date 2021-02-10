@@ -62,5 +62,25 @@
         "key": "ctrl+cmd+\\",
         "command": "workbench.action.terminal.split",
         "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k .",
+        "command": "quokka.stopCurrent",
+        "when": "quokka.hasActiveSession && !quokka.isLiveShareClient && !terminalFocus"
+    },
+    {
+        "key": "cmd+k s",
+        "command": "-quokka.stopCurrent",
+        "when": "quokka.hasActiveSession && !quokka.isLiveShareClient && !terminalFocus"
+    },
+    {
+        "key": "cmd+k /",
+        "command": "extension.searchStories",
+        "when": "editorTextFocus && is-running-storybooks-vscode"
+    },
+    {
+        "key": "cmd+k s",
+        "command": "-extension.searchStories",
+        "when": "editorTextFocus && is-running-storybooks-vscode"
     }
 ]
