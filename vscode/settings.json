@@ -65,9 +65,10 @@
         "warrant",
         "what"
     ],
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "editor.emptySelectionClipboard": false,
     "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "all",
@@ -80,8 +81,12 @@
         ".php_cs.dist": "php",
         "*.php": "php"
     },
+    "html.format.endWithNewline": true,
     "html.format.wrapAttributes": "force-aligned",
     "html.format.wrapLineLength": 0,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "http.proxyStrictSSL": false,
     "search.exclude": {
         "**/.git": true,
@@ -97,20 +102,15 @@
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
     "window.restoreWindows": "all",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.colorTheme": "Monokai Mine",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.editor.showTabs": true,
-
     "[xml]": {
         "editor.formatOnSave": false
     },
     "[jsonc]": {
         "editor.formatOnSave": false
-    },
-    "[json]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "auto-close-tag.activationOnLanguage": [
         "xml",
@@ -223,8 +223,6 @@
         }
     ],
     "typescript.updateImportsOnFileMove.enabled": "never",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/dlee/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\""
 }
