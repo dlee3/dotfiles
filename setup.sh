@@ -25,7 +25,7 @@ chsh -s $ZSH
 echo 'Installing oh-my-zsh & powerline fonts'
 # Install oh-my-zsh
 rm -rf ~/.oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 
 # Install powerline fonts
 git clone https://github.com/powerline/fonts.git --depth=1
@@ -44,12 +44,15 @@ echo 'Loading zsh'
 zsh
 source $HOME/.zshrc
 
+# Install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # Install nodejs
-echo 'Installing nvm'
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
-echo 'Installing node.js'
-nvm install 10
+#echo 'Installing nvm'
+#curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+#echo 'Installing node.js'
+#nvm install 10
 
 # Linking angular/yarn
-echo 'Linking angular-cli.json'
-ln -nfs "$DIR/angular-cli.json" ~/.angular-cli.json
+#echo 'Linking angular-cli.json'
+#ln -nfs "$DIR/angular-cli.json" ~/.angular-cli.json
