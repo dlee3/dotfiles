@@ -35,7 +35,7 @@ sh "$DIR/git/install.sh"
 echo 'Installing homebrew & apps'
 sh "$DIR/homebrew.sh"
 
-# Install apps
+# Install nvm
 echo 'Installing nvm'
 sh "$DIR/nvm.sh"
 

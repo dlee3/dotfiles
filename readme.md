@@ -1,18 +1,21 @@
 # My dotfiles
 
-To all defaults run:
-./setup.sh
+**If you want everything to install then run:**
+```sh
+sh ./setup.sh
+```
+To change the programs installed, adjust the list in `homebrew.sh`.
 
-After giving the terminal application permissions to make changes you can install parallels
-```shell
+**After giving the terminal application permissions to make changes you can install parallels:**
+```sh
 brew install parallels
 ```
 
-Install Bitwarden through the Apple App Store so that it can integrate with the browser extensions.
+**Manually installed programs through App Store:**
+- Bitwarden (so that it can integrate with the browser extensions)
+- Notebook (Zoho)
 
-Manually installed programs:
-Notebook (Zoho)
-
+**Config updates:**
 Jetbrains Toolbox
 Settings -> Tools -> Shell scripts location: set it to this value
 /usr/local/bin
@@ -22,10 +25,10 @@ Fix issue with Jetbrains Toolbox command line permissions
 sudo chown -R `whoami`:admin /usr/local/bin
 ```
 
-To install VS Code Extensions and settings run:
+**To install VS Code Extensions and settings run:**
 vscode/install.sh
 
-Export extensions from VS Code:
+**Export extensions from VS Code:**
 code --list-extensions > extensions.txt
 
 ## ATTENTION
