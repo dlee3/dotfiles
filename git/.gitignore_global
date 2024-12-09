@@ -3,13 +3,15 @@
 *.iml
 /vendor
 environment.inc
-.idea/*
-.vscode/*
-/node_modules/*
+**/.idea/*
+**/.vscode/*
+**/node_modules/*
 config.codekit3
-yarn-error.log
-app/.idea
+**/yarn-error.log
 app/src/assets/config/env.json
 launch.json
 
 proxy.config.json
+
+**/.env
+.env

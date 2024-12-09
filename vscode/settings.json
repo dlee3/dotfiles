@@ -105,7 +105,7 @@
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Monokai Mine",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.showTabs": true,
+    "workbench.editor.showTabs": "multiple",
     "[xml]": {
         "editor.formatOnSave": false
     },
@@ -224,5 +224,16 @@
     ],
     "typescript.updateImportsOnFileMove.enabled": "never",
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/dlee/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\""
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/dlee/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "serverUrl": "https://sonarqube.cloud.cms.gov",
+            "connectionId": "https-sonarqube-cloud-cms-gov"
+        }
+    ],
+    "sonarlint.pathToNodeExecutable": "/Users/David.Lee/.nvm/versions/node/v16.14.0/bin/node",
+    "editor.inlineSuggest.enabled": true,
+    "terminal.integrated.env.osx": {},
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
+
