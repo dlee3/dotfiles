@@ -9,8 +9,22 @@ formulae=(
   brave-browser
   alfred
   slack
+  synology-chat
+  synology-drive
+  synology-note-station-client
+  autodesk-fusion
+  prusaslicer
+  openvpn-connect
+  home-assistant
+  microsoft-office
+  affinity-designer
+  affinity-photo
+  affinity-publisher
   postman
   dbeaver-community
+  brackets
+  raspberry-pi-imager
+  android-file-transfer
 )
 
 casks=(

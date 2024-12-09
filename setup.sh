@@ -1,4 +1,11 @@
 #!/bin/bash
+if [ $1 = "-w" ]; then
+    HOMEBREW_FILE="homebrew-work.sh"
+    echo "Installing Work Apps"
+else
+    HOMEBREW_FILE="homebrew.sh"
+    echo "Installing Personal Apps"
+fi
 
 set -euo pipefail
 
@@ -33,7 +40,7 @@ sh "$DIR/git/install.sh"
 
 # Install apps
 echo 'Installing homebrew & apps'
-sh "$DIR/homebrew.sh"
+sh "$DIR/$HOMEBREW_FILE"
 
 # Install nvm
 echo 'Installing nvm'

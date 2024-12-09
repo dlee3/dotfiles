@@ -1,9 +1,16 @@
 # My dotfiles
 
+Before starting, install the xcode developer tools.
+
 **If you want everything to install then run:**
 ```sh
 sh ./setup.sh
 ```
+For work installs run with the work flag:
+```sh
+sh ./setup.sh --w
+```
+
 To change the programs installed, adjust the list in `homebrew.sh`.
 
 **After giving the terminal application permissions to make changes you can install parallels:**
