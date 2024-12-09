@@ -4,11 +4,11 @@ Before starting, install the xcode developer tools.
 
 **If you want everything to install then run:**
 ```sh
-sh ./setup.sh
+sh ./setup.sh {email_address}
 ```
 For work installs run with the work flag:
 ```sh
-sh ./setup.sh --w
+sh ./setup.sh {email_address} -w
 ```
 
 To change the programs installed, adjust the list in `homebrew.sh`.
@@ -37,10 +37,6 @@ vscode/install.sh
 
 **Export extensions from VS Code:**
 code --list-extensions > extensions.txt
-
-## ATTENTION
-
-Make sure you replace `{email}` in `.gitconfig` with your email address.
 
 ### Notes
 

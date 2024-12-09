@@ -1,5 +1,16 @@
 #!/bin/bash
-if [ $1 = "-w" ]; then
+
+# Check inputs
+email_regex="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$"
+
+if [[ -n "$1" && "$1" =~ $email_regex ]]; then
+    echo "Supplied email: $1"
+else
+    echo "\nPlease supply a valid email address.\n"
+    exit
+fi
+
+if [ "$2" = "-w" ]; then
     HOMEBREW_FILE="homebrew-work.sh"
     echo "Installing Work Apps"
 else
