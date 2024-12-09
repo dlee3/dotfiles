@@ -1,33 +1,15 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-set -e
-
-# Check for prerequisites
-type zsh >/dev/null 2>&1 || {
-  echo 'Please install zsh';
-  echo 'yum install -y zsh on RHEL';
-  echo 'apt-get install -y zsh on Ubuntu';
-  exit 1;
-}
+set -euo pipefail
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-ZSH=$(which zsh)
-
-echo 'Configuring Git'
-
-# Configure Git
-sh "$DIR/git/install.sh"
-
-echo 'Changing shell....'
-chsh -s $ZSH
-
 echo 'Installing oh-my-zsh & powerline fonts'
-# Install oh-my-zsh
+## Install oh-my-zsh
 rm -rf ~/.oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
-
-# Install powerline fonts
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+#
+## Install powerline fonts
 git clone https://github.com/powerline/fonts.git --depth=1
 # install
 cd fonts
@@ -39,19 +21,23 @@ rm -rf fonts
 echo 'Linking zshrc'
 ln -nfs "$DIR/zshrc" ~/.zshrc
 ln -nfs "$DIR/zshenv" ~/.zshenv
+ln -nfs "$DIR/my-theme.zsh-theme" ~/.oh-my-zsh/themes/my-theme.zsh-theme
 
 echo 'Loading zsh'
 zsh
 source $HOME/.zshrc
 
-# Install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# Add git configs
+echo 'Configuring Git'
+sh "$DIR/git/install.sh"
 
-# Install nodejs
-#echo 'Installing nvm'
-#curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
-#echo 'Installing node.js'
-#nvm install 10
+# Install apps
+echo 'Installing homebrew & apps'
+sh "$DIR/homebrew.sh"
+
+# Install apps
+echo 'Installing nvm'
+sh "$DIR/nvm.sh"
 
 # Linking angular/yarn
 #echo 'Linking angular-cli.json'

@@ -97,7 +97,7 @@
         "**/tmp": true,
         "**/vendor": true
     },
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "terminal.external.osxExec": "iTerm2.app",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "Meslo LG M for Powerline",
@@ -234,6 +234,9 @@
     "sonarlint.pathToNodeExecutable": "/Users/David.Lee/.nvm/versions/node/v16.14.0/bin/node",
     "editor.inlineSuggest.enabled": true,
     "terminal.integrated.env.osx": {},
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "window.openFoldersInNewWindow": "on",
+    "dart.flutterSdkPath": "/Users/dlee/development/flutter",
+    "security.workspace.trust.untrustedFiles": "open"
 }
 

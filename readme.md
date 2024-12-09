@@ -3,6 +3,25 @@
 To all defaults run:
 ./setup.sh
 
+After giving the terminal application permissions to make changes you can install parallels
+```shell
+brew install parallels
+```
+
+Install Bitwarden through the Apple App Store so that it can integrate with the browser extensions.
+
+Manually installed programs:
+Notebook (Zoho)
+
+Jetbrains Toolbox
+Settings -> Tools -> Shell scripts location: set it to this value
+/usr/local/bin
+
+Fix issue with Jetbrains Toolbox command line permissions
+```shell
+sudo chown -R `whoami`:admin /usr/local/bin
+```
+
 To install VS Code Extensions and settings run:
 vscode/install.sh
 

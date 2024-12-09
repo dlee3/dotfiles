@@ -10,7 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="agnoster"
 # ZSH_THEME="amuse"
 # ZSH_THEME="candy"
-ZSH_THEME="1-my-fino-time"
+ZSH_THEME="my-theme"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -96,8 +96,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Add Flutter to PATH
+export PATH="$PATH:/Users/dlee/development/flutter/bin"
