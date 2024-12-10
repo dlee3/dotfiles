@@ -25,10 +25,12 @@ formulae=(
   brackets
   raspberry-pi-imager
   android-file-transfer
+  jq
 )
 
 casks=(
   docker
+  microsoft-edge
   visual-studio-code
   itsycal
 )
@@ -44,6 +46,6 @@ for f in "${formulae[@]}"; do
 done
 
 # Install all of the casks
-for f in "${formulae[@]}"; do
-  brew install --cask $f
+for c in "${casks[@]}"; do
+  brew install --cask $c
 done

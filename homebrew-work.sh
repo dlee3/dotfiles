@@ -11,10 +11,12 @@ formulae=(
   slack
   postman
   dbeaver-community
+  jq
 )
 
 casks=(
   docker
+  microsoft-edge
   zoom
   visual-studio-code
   itsycal
@@ -25,12 +27,14 @@ casks=(
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/dlee/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# TODO: Fix homebrew install - it currently doesn't add brew to the config
+
 # Install all of the formulae (some of these are casks
 for f in "${formulae[@]}"; do
   brew install $f
 done
 
 # Install all of the casks
-for f in "${formulae[@]}"; do
-  brew install --cask $f
+for c in "${casks[@]}"; do
+  brew install --cask $c
 done

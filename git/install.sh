@@ -13,14 +13,13 @@ fi
 
 EMAIL_STRING=$1
 EMAIL_VAR="{email}"
-CONFIG_FILE="~/.gitconfig"
 
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 ln -nfs "$DIR/.gitignore_global" ~/.gitignore_global
 
-cp "$DIR/.gitconfig" $CONFIG_FILE
+cp "$DIR/.gitconfig" ~/.gitconfig
 ln -nfs "$DIR/.gitmessage" ~/.gitmessage
 
-sed -i "s/$EMAIL_VAR/$EMAIL_STRING/g" "$CONFIG_FILE"
+sed -i '' "s/$EMAIL_VAR/$EMAIL_STRING/g" ~/.gitconfig
