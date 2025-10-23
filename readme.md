@@ -45,5 +45,3 @@ If security blocks Facebook URLs then the default yarn setup will not work becau
 ```
 registry "https://registry.npmjs.org"
 ```
-
-test
